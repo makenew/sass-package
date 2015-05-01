@@ -129,6 +129,7 @@ Install the development dependencies with
 
 ```bash
 $ bundle
+$ bower install
 ```
 
 [Bower]: http://bower.io/
