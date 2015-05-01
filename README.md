@@ -109,8 +109,6 @@ $ bower install --save sass-package
 Alternatively, you can download a [release][Releases]
 or clone the repository directly.
 
-[Bower]: http://bower.io/
-
 ## Development and Testing
 
 ### Source Code
@@ -133,6 +131,8 @@ Install the development dependencies with
 $ bundle
 ```
 
+[Bower]: http://bower.io/
+[Bundler]: http://bundler.io/
 [Ruby]: https://www.ruby-lang.org/
 
 ### Rake
