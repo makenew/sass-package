@@ -5,7 +5,9 @@ language:
 rvm:
   - 2.2.2
 node_js:
+  - stable
   - iojs
+  - iojs-v2
 cache:
   bundler: true
   directories:
@@ -15,7 +17,6 @@ sudo: false
 
 before_script:
   - npm install
-  - npm run install
 
 before_install:
   - 'echo ''gem: --no-document'' > ~/.gemrc'
