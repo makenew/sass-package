@@ -6,8 +6,6 @@ rvm:
   - 2.2.2
 node_js:
   - stable
-  - iojs
-  - iojs-v2
 cache:
   bundler: true
   directories:
