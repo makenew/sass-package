@@ -1,5 +1,4 @@
 task default: :build
-task travis: :build
 
 # Add sass load paths here.
 load_paths = %w(
