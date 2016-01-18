@@ -1,21 +1,19 @@
 # Sass Package Skeleton
 
 <!--
-[![Bower Version](https://img.shields.io/bower/v/sass-package.svg)](http://bower.io/search/?q=sass-package)
+[![npm](https://img.shields.io/npm/v/makenew-sass-package.svg)](https://www.npmjs.com/package/makenew-sass-package)
 -->
-[![MIT License](https://img.shields.io/github/license/makenew/sass-package.svg)](./LICENSE.txt)
+<!--
+[![Bower](https://img.shields.io/bower/v/makenew-sass-package.svg)](http://bower.io/search/?q=makenew-sass-package)
+-->
+[![GitHub license](https://img.shields.io/github/license/makenew/sass-package.svg)](./LICENSE.txt)
 [![Dependency Status](https://img.shields.io/gemnasium/makenew/sass-package.svg)](https://gemnasium.com/makenew/sass-package)
 [![Build Status](https://img.shields.io/travis/makenew/sass-package.svg)](https://travis-ci.org/makenew/sass-package)
 
-Use this project freely as a base for your [Sass] packages.
-
 ## Description
 
-This branch uses [Ruby Sass][Sass].
-For [LibSass] use the [libsass branch].
+Bootstrap a new [Sass] package in less than five minutes.
 
-[LibSass]: http://libsass.org/
-[libsass branch]: https://github.com/makenew/sass-package/tree/libsass
 [Sass]: http://sass-lang.com/
 
 ### Features
@@ -98,30 +96,41 @@ $ git merge upstream/master
 ## Installation
 
 The recommended method is to add this as a dependency
-to your project using [Bower] with
+to your project using [npm] with
 
 ```
-$ bower install --save sass-package
+$ npm install --save makenew-sass-package
+```
+
+or [Bower] with
+
+```
+$ bower install --save makenew-sass-package
 ```
 
 Alternatively, you can download a [release][Releases]
 or clone the repository directly.
 
+[Bower]: http://bower.io/
+[npm]: https://www.npmjs.com/
+[Releases]: https://github.com/makenew/sass-package/releases
+
 ## Development and Testing
 
 ### Source Code
 
-The [sass-package source](https://github.com/makenew/sass-package)
-is hosted on GitHub.
+The [makenew-sass-package source] is hosted on GitHub.
 To clone the project run
 
 ```
 $ git clone https://github.com/makenew/sass-package.git
 ```
 
+[makenew-sass-package source]: https://github.com/makenew/sass-package
+
 ### Requirements
 
-You will need [Ruby] ≥ 2 with [Bundler] and [Bower].
+You will need [Ruby] with [Bundler] and [Node.js] with [npm].
 
 Install the development dependencies with
 
@@ -131,8 +140,8 @@ $ npm install
 $ npm run deps
 ```
 
-[Bower]: http://bower.io/
 [Bundler]: http://bundler.io/
+[Node.js]: https://nodejs.org/
 [Ruby]: https://www.ruby-lang.org/
 
 ### Rake
