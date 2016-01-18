@@ -1,8 +1,25 @@
 {
+  "name": "sass-package",
+  "version": "0.0.0",
+  "description": "Package description.",
+  "main": "stylesheets/main.sass",
+  "keywords": [
+    "sass",
+    "css"
+  ],
+  "homepage": "https://github.com/makenew/sass-package",
+  "bugs": "https://github.com/makenew/sass-package/issues",
+  "repository": "makenew/sass-package",
+  "license": "MIT",
+  "authors": [
+    "Your Name <you@example.com>"
+  ],
   "scripts": {
     "deps": "bower install"
   },
-  "private": true,
+  "files": [
+    "stylesheets"
+  ],
   "devDependencies": {
     "bower": "^1.7.2"
   }
