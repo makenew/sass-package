@@ -127,7 +127,8 @@ Install the development dependencies with
 
 ```
 $ bundle
-$ bower install
+$ npm install
+$ npm run deps
 ```
 
 [Bower]: http://bower.io/

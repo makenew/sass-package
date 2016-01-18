@@ -1,6 +1,6 @@
 {
   "scripts": {
-    "install": "bower install"
+    "deps": "bower install"
   },
   "private": true,
   "devDependencies": {
