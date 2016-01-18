@@ -14,6 +14,13 @@
 
 Bootstrap a new [Sass] package in less than five minutes.
 
+This skeleton uses [Ruby Sass][Sass].
+For [libSass], use [makenew/libsass-package].
+
+[libSass]: http://libsass.org/
+[makenew/libsass-package]: https://github.com/makenew/libsass-package
+[Sass]: http://sass-lang.com/
+
 [Sass]: http://sass-lang.com/
 
 ### Features
