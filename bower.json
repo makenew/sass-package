@@ -23,6 +23,7 @@
     "test",
     "tests",
     "build",
+    "package.json",
     "Gemfile",
     "Gemfile.lock",
     "Rakefile"
