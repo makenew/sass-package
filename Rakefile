@@ -10,16 +10,16 @@ load_paths << 'bower_components' if Dir.exist? 'bower_components'
 # Convert list to sass arguments.
 load_paths.map! { |v| ['--load-path', v] }.flatten!
 
-# Spawn a server and kill it gracefully when interrupt is received
+# Spawn a server and kill it gracefully when interrupt is received.
 def spawn *cmd
+  puts cmd.join(' ')
   pid = Process.spawn(*cmd)
-
   switch = true
   Signal.trap 'SIGINT' do
-    Process.kill( :QUIT, pid ) && Process.wait
+    Process.kill(:QUIT, pid) && Process.wait
     switch = false
   end
-  while switch do sleep 1 end
+  while switch do sleep 0.1 end
 end
 
 desc 'Compile Sass to CSS'
