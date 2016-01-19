@@ -3,8 +3,8 @@
 [![npm](https://img.shields.io/npm/v/makenew-sass-package.svg)](https://www.npmjs.com/package/makenew-sass-package)
 [![Bower](https://img.shields.io/bower/v/makenew-sass-package.svg)](http://bower.io/search/?q=makenew-sass-package)
 [![GitHub license](https://img.shields.io/github/license/makenew/sass-package.svg)](./LICENSE.txt)
-[![Dependency Status](https://img.shields.io/gemnasium/makenew/sass-package.svg)](https://gemnasium.com/makenew/sass-package)
-[![Build Status](https://img.shields.io/travis/makenew/sass-package.svg)](https://travis-ci.org/makenew/sass-package)
+[![Gemnasium](https://img.shields.io/gemnasium/makenew/sass-package.svg)](https://gemnasium.com/makenew/sass-package)
+[![Travis](https://img.shields.io/travis/makenew/sass-package.svg)](https://travis-ci.org/makenew/sass-package)
 
 ## Description
 
