@@ -1,7 +1,7 @@
 {
-  "name": "sass-package",
-  "version": "0.0.0",
-  "description": "Package description.",
+  "name": "makenew-sass-package",
+  "version": "2.0.0",
+  "description": "Sass package skeleton.",
   "main": "stylesheets/main.sass",
   "keywords": [
     "sass",
@@ -12,7 +12,7 @@
   "repository": "makenew/sass-package",
   "license": "MIT",
   "authors": [
-    "Your Name <you@example.com>"
+    "Evan Sosenko <razorx@evansosenko.com>"
   ],
   "scripts": {
     "deps": "bower install"
