@@ -8,7 +8,7 @@
 
 ## Description
 
-Bootstrap a new [Sass] package in less than five minutes.
+Bootstrap a new [Sass] package in less than a minute.
 
 This skeleton uses [Ruby Sass][Sass].
 For [libSass], use [makenew/libsass-package].
