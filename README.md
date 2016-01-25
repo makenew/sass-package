@@ -38,9 +38,26 @@ For [libSass], use [makenew/libsass-package].
 
 ### Bootstrapping a New Project
 
-1. Clone this repository or download a [release][Releases].
+1. Clone the master branch of this repository with
 
-2. Run `./makenew.sh` and follow the prompts.
+   ```
+   $ git clone --single-branch https://github.com/makenew/sass-package.git new-sass-package
+   $ cd new-sass-package
+   ```
+
+   Optionally, reset to the latest [release][Releases] with
+
+   ```
+   $ git reset --hard sass-package-v2.0.1
+   ```
+
+2. Run
+
+   ```
+   $ ./makenew.sh
+   ```
+
+   and follow the prompts.
    This will replace the boilerplate, delete itself,
    and stage changes for commit.
    This script assumes the project repository will be hosted on GitHub.
