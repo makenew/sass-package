@@ -142,7 +142,7 @@ $ npm run deps
 
 ### Rake
 
-Run `rake -T` to see all Rake tasks.
+Run `$ rake -T` to see all Rake tasks.
 
 ```
 rake build  # Compile Sass to CSS
